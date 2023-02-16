@@ -1,8 +1,11 @@
 #include <stdio.h>
-#include <string.h>
-/* printing exactly using puts */
+/**
+* main - Entry point
+* Description: 'the program's description'
+* Return: Always 0 (Success)
+*/
 int main(void)
-{ /* using puts command */
+{ /* printing exactly using puts */
 char str[] = "\"Programming is like building a multilingual puzzle";
 puts(str);
 return (0); }
