@@ -2,11 +2,9 @@
 #include <time.h>
 #include <stdio.h>
 /**
-* more headers goes there
+* Main: Determines either greater than 5, is less than 6, or is 0
 *
-* main - Determines either greater than 5, is less than 6, or is 0
-*
-* betty style doc for function main goes there
+* Return: Always 0 (Success)
 */
 int main(void)
 {
