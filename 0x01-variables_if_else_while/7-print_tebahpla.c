@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+/**
+ * main - Entry point
+ * print alphabets in the reverse order
+ * Return: Always (0) success
+ */
+int main(void)
+{
+	int n = 122;
+
+	while (n >= 97)
+		putchar(n--);
+	putchar(10);
+	return (0);
+}
