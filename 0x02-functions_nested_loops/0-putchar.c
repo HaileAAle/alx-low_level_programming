@@ -1,7 +1,7 @@
 #include <unistd.h>
 #include <stdio.h>
 #include "main.h"
-#include "_putchar"
+#include "_putchar.h"
 
 /**
  * main - Prints _putchar as a message.
