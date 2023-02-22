@@ -1,14 +1,14 @@
 #include "main.h"
 /**
- * print_alphabet - Prints the alphabet in lowercase.
+ * print_alphabet_X10 times - Prints the alphabet in lowercase.
  *
  * Return: Always 0 (Success)
  */
 void print_alphabet_x10(void)
 {
-	int i;
+	int i, a;
 
-	for (i = '0'; i <= '9'; i++)
+	for (a = '0'; a <= '9'; a++)
 	{
 		for (i = 97; i <= 122; i++)
 		{
