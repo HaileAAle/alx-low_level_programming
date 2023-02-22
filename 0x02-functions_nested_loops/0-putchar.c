@@ -1,6 +1,4 @@
-#include <unistd.h>
 #include "main.h"
-#include "_putchar.h"
 
 /**
  * main - Prints _putchar as a message.
