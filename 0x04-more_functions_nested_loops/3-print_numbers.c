@@ -1,22 +1,17 @@
 #include "main.h"
 
 /**
- * _puts - prints a string, followed by a new line.
- * @str: input string.
- * Return: no return.
-*/
-void _puts(char *str)
-{
-	int count = 0;
+ * print_numbers - prints numbers 0 to 9
+ * Return: no return
+ */
 
-	while (count >= 0)
+void print_numbers(void)
+{
+	int i = 48;
+
+	while (i >= 48 && i <= 57)
 	{
-		if (str[count] == '\0')
-		{
-			_putchar('\n');
-			break;
-		}
-		_putchar(str[count]);
-		count++;
+		_putchar(i++);
 	}
+	_putchar('\n');
 }
