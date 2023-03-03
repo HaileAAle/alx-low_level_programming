@@ -9,7 +9,7 @@
 
 char *string_toupper(char *ptr)
 {
-	int i;
+	int i = 0;
 	char *ptr;
 
 	while ((*ptr + i) != '\0')
