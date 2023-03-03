@@ -18,6 +18,8 @@ char *_strcat(char *dest, char *src)
 		for (; *(dest + i) != '\0'; i++)
 		{
 		*(dest + i) = *(src + j);
+		if (*(src + j) == '\0')
+			break;
 		}
 	break;
 	}
