@@ -7,16 +7,15 @@
  * Return: the pointer to dest.
  */
 
-char *string_toupper(char *ptr)
+char *string_toupper(char *p)
 {
 	int i = 0;
-	char *ptr;
 
-	while ((*ptr + i) != '\0')
+	while (*(p + i) != '\0')
 	{
-		if ((*(ptr + i) >= 97) && (*(ptr + i) <= 122))
-			*(ptr + i) = (*(ptr + i) - 32);
+		if ((*(p + i) >= 97) && (*(p + i) <= 122))
+			*(p + i) = (*(p + i) - 32);
 		i++;
 	}
-	return (ptr);
+	return (p);
 }
