@@ -8,11 +8,9 @@
 
 void _print_rev_recursion(char *s)
 {
-	int count = 0;
-
-	if (*(s[count]) != '\0')
+	if (*s != '\0')
 	{
-		_putchar(*(s[count]));
-		_print_rev_recursion(*(s[count - 1]));
+		_print_rev_recursion(s + 1);
+		_putchar(*s);
 	}
 }
