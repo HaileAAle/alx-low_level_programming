@@ -9,9 +9,7 @@
 
 int main(int argc, char *argv[])
 {
-	int count;
-
-	for (count = 0; count < argc; count++)
-		pritf("%s\n" *argv[count]);
+	while (argc--)
+		pritf("%s\n" *argv++);
 	return (0);
 }
