@@ -5,7 +5,7 @@
  * @argv: two numbers
  * Return: 0 = success, 1 = error
  */
-int main(int argc, char *argv[])
+int main(int argc, char *argv[] __attribute__((unused)))
 {
 	if (argc = 2)
 		printf("%d\n", argv[1] * argv[2]);
