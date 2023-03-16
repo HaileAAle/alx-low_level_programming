@@ -4,17 +4,15 @@
  * *malloc_checked - check the allocates memory
  * @b: variable the memory reserved
  * Return: to the poiter of the address of the memory
- *
+ * if malloc fails, status value is equal to 98.
  */
 
 void *malloc_checked(unsigned int b)
 {
-	int *c;
+	char *c;
 
-	if (b != '\0')
-		c = (int *)malloc(sizeof(b));
-	return (c);
-
+	c = malloc(b);
 	if (c == NULL)
-		return (98);
+		exit(98);
+	return (c);
 }
